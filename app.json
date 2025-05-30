@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "redAport",
     "name": "redAport",
     "slug": "redAport",
     "version": "1.0.0",
@@ -23,7 +24,8 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "bundler": "metro"
+    },
+    "plugins": ["expo-router"]
   }
 }
